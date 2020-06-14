@@ -1,0 +1,11 @@
+.menu {
+	position: fixed;
+	max-width: 270px;
+	height: 100%;
+	background-color: rgb(70, 114, 196);
+	border-right-width: 0;
+	padding-top: 25px;
+}
+.submenu{
+    min-width: 300px;
+}

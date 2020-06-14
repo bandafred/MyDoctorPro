@@ -1,0 +1,19 @@
+.footer {
+	background-color: rgb(70, 114, 196);
+}
+.linkPolicy{
+	color: #fff;
+	margin-left: 150px;
+}
+.link {
+	color: #ffffc7;
+}
+.link:hover {
+	color: #dbdbdb;
+}
+.confidence {
+	float: left;
+}
+.copyright {
+	float: right;
+}

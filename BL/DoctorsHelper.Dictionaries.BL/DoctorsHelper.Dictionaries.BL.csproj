@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\DoctorsHelper.BL.Core\DoctorsHelper.BL.Core.csproj" />
+    <ProjectReference Include="..\..\Data\DoctorsHelper.Dictionaries.Data.EFCore\DoctorsHelper.Dictionaries.Data.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

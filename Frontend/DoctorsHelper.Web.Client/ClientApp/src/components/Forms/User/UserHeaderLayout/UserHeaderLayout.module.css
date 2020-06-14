@@ -1,0 +1,7 @@
+﻿.link {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.link:hover {
+    color: #dbdbdb;
+}

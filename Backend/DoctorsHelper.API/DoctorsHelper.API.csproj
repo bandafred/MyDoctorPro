@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BL\DoctorsHelper.ArterialPressure.BL\DoctorsHelper.ArterialPressure.BL.csproj" />
+    <ProjectReference Include="..\..\BL\DoctorsHelper.Calculators.BL\DoctorsHelper.Calculators.BL.csproj" />
+    <ProjectReference Include="..\..\BL\DoctorsHelper.Dictionaries.BL\DoctorsHelper.Dictionaries.BL.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="MailKit" Version="2.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\DoctorsHelper.BL.Core\DoctorsHelper.BL.Core.csproj" />
+    <ProjectReference Include="..\..\Data\DoctorsHelper.ArterialPressure.Data.EFCore\DoctorsHelper.ArterialPressure.Data.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>

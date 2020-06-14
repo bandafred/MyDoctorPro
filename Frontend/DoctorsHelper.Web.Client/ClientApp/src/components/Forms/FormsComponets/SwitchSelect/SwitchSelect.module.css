@@ -1,0 +1,7 @@
+.text{
+    margin-left: 5px;
+    font-style: 15px;
+}
+.text:hover{
+    cursor: pointer;
+}
